@@ -1,0 +1,122 @@
+﻿                      body {background-color:#fdfaee}   
+ .A{
+  position: absolute;
+  top: 60%;
+  left: 03%;
+}
+   .B{
+  position: absolute;
+  top: 60%;
+  left: 35%;}
+   .C{
+  position: absolute;
+  top: 60%;
+  left: 67%;}
+   .D{
+  position: absolute;
+  top: 130%;
+  left: 03%;}
+   .E{
+  position: absolute;
+  top: 130%;
+  left: 35%;}
+   .F{
+  position: absolute;
+  top:130%;
+  left: 67%;}
+   .G{
+  position: absolute;
+  top: 200%;
+  left: 03%;}
+  .H{
+  position: absolute;
+  top: 200%;
+  left: 35%;}
+  .I{
+  position: absolute;
+  top: 200%;
+  left: 67%;}
+  .J{
+  position: absolute;
+  top: 270%;
+  left: 03%;}
+  
+    .button1 {padding: 3px 25px;
+            border-radius: 8px;
+            background-color: transparent;
+            color: black;
+            border : 2px solid #4CAF50;}
+            
+  .button1:hover {
+    background-color:  #4CAF50;
+    color: white;
+    cursor:pointer;
+}
+   .bg {padding: 5px 5px;
+        border-radius: 4px;
+            background-color: Maroon;
+            color: black;
+            border : 4px;}
+            
+  .bg:hover {
+    background-color: Fuchsia;
+    color: white;
+    cursor:pointer;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+     background:url(./images/bg3.jpg);
+    border-bottom: solid 3px #FFEB3B;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color:pink;
+    text-align: center;
+    padding: 5px 40px;
+    text-decoration: none;
+}
+
+
+.float-center a:hover {
+  border-bottom: 3px solid red;
+}
+
+.float-center a.active {
+  border-bottom: 3px solid red;
+}
+
+.navbar a:hover {
+ background-color:silver;
+}
+
+.navbar a.active {
+  border-bottom: 3px solid red;
+}
+.title{ position:absolute;
+        left:300px;top:20px;}
+ .title2{ position:absolute;
+        left:400px;top:70px;}
+.topright{ position:absolute;
+        left:850px;top:50px;}  
+ .topright2{ position:absolute;
+        left:875px;top:32px;} 
+ .toprightn{ position:absolute;
+        left:850px;top:75px;}  
+ .topright2n{ position:absolute;
+        left:875px;top:57px;}        
+ .free{ position: absolute;
+         top:140px;left:1000px}       
+        
+                           
+.ftr{overflow:hidden; background:url(./images/bg3.jpg); position:relative;top:2000px;}             
+
+.footer{ width:880px; margin:0 auto; padding-top:10px; padding-bottom:10px; text-align:center; color: pink;} 
