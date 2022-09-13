@@ -1,0 +1,84 @@
+﻿ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+     background:url(./images/bg3.jpg);
+    border-bottom: solid 3px #FFEB3B;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: pink;
+    text-align: center;
+    padding: 5px 40px;
+    text-decoration: none;
+}
+
+
+.float-center a:hover {
+  border-bottom: 3px solid red;
+}
+
+.float-center a.active {
+  border-bottom: 3px solid red;
+}
+   .bg {padding: 0px 0px;
+        border-radius: 4px;
+            background-color: transparent;
+}
+
+.bg-img {
+  background-image: url("./images/back.jpg");
+  background-color: #cccccc;
+  height: 450px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+padding:30px;
+}
+
+
+
+.navbar a:hover {
+ background-color:silver;
+ color:Black;
+}
+
+.navbar a.active {
+  border-bottom: 3px solid red;
+}
+
+.title{ position:absolute;
+        left:300px;top:20px;}
+ .title2{ position:absolute;
+        left:400px;top:70px;}
+.topright{ position:absolute;
+        left:850px;top:50px;}  
+ .topright2{ position:absolute;
+        left:875px;top:32px;} 
+ .toprightn{ position:absolute;
+        left:850px;top:75px;}  
+ .topright2n{ position:absolute;
+        left:875px;top:57px;}        
+ .free{ position: absolute;
+         top:140px;left:1000px}       
+        
+                                
+        
+.ftr{overflow:hidden; background:url(./images/bg3.jpg);}    
+  .bgoptions {padding: 0px 0px;
+        border-radius: 4px;
+            background-color: transparent;
+}        
+  .bgoptions:hover {
+    background-color: Aqua;
+    color:#fdfaee;
+    cursor:pointer;
+}
+.footer{ width:880px; margin:0 auto; padding-top:10px; padding-bottom:10px; text-align:center; color: pink;}  
